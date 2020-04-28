@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Resume from "./Components/Resume";
+import Portfolio from "./Components/Portfolio";
+import myCV from "./Components/myCV";
+import MyForm from "./Components/myForm";
+import Error from "./Components/Error";
+import { Route, Switch } from "react-router-dom";
+import { CssBaseline } from "@material-ui/core";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CssBaseline />
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contacts" component={MyForm} />
+        <Route path="/cv" component={myCV} />
+        <Route component={Error} />
+      </Switch>
+    </>
   );
-}
+};
 
 export default App;

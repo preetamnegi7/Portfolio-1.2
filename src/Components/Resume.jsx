@@ -201,9 +201,9 @@ const Resume = () => {
               align="right"
               style={{ color: "white" }}
             >
-              <ul>Management leading team of interns</ul>
-              <ul>coordination with manufacturing plant in USA</ul>
-              <ul>Process(Procurement of machine tools)</ul>
+              <ul>Leading team of interns</ul>
+              <ul>Coordination with manufacturing plant in USA</ul>
+              <ul>Procurement of machine tools</ul>
               <ul>
                 Design(E-commerce website in Shopify,labels, logos, templates
                 for products)

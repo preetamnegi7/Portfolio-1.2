@@ -115,6 +115,38 @@ const Resume = () => {
         <Typography variant="h4" align="center" className={classes.heading}>
           working experience
         </Typography>
+    <Box component="div" className={classes.timeline}>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2021
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h4"
+              align="right"
+              className={classes.subHeading}
+            >
+              MANAGER PRODUCT DEVELOPMENT
+            </Typography>
+            <Typography
+              variant="body1"
+              align="right"
+              style={{ color: "grey", textTransform: "uppercase" }}
+            >
+              COLEARNERS REASEARCH AND EDUCATIONAL INSTITUTE
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="right"
+              style={{ color: "white" }}
+            >
+              <ul>Team lead of 3 different domains.</ul>
+              <ul>Project management and execution planning.</ul>
+              <ul>Ensuring on time delivery of product.</ul>
+            </Typography>
+          </Box>
         <Box component="div" className={classes.timeline}>
           <Typography
             variant="h2"

@@ -115,8 +115,7 @@ const Resume = () => {
         <Typography variant="h4" align="center" className={classes.heading}>
           working experience
         </Typography>
-    <Box component="div" className={classes.timeline}>
-          <Typography
+              <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >

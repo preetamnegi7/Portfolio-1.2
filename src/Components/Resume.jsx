@@ -122,6 +122,30 @@ const Resume = () => {
           >
             2021
           </Typography>
+           <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h4"
+              align="right"
+              className={classes.subHeading}
+            >
+              ASSISTANT MANAGER PROGRAM MANAGEMENT
+            </Typography>
+            <Typography
+              variant="body1"
+              align="right"
+              style={{ color: "grey", textTransform: "uppercase" }}
+            >
+              DONALDSON INDIA FILTER SYSTEMS PVT. LTD. (OCT 2021 - CURRENT)
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="right"
+              style={{ color: "white" }}
+            >
+              <ul>Managing Project Engine Air Filtration</ul>
+              <ul>Team Player in Global Power Pleat</ul>
+              </Typography>
+            
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h4"
@@ -135,7 +159,7 @@ const Resume = () => {
               align="right"
               style={{ color: "grey", textTransform: "uppercase" }}
             >
-              COLEARNERS REASEARCH AND EDUCATIONAL INSTITUTE
+              COLEARNERS REASEARCH AND EDUCATIONAL INSTITUTE (JAN 2021 - OCT 2021)
             </Typography>
             <Typography
               variant="subtitle1"
@@ -167,7 +191,7 @@ const Resume = () => {
               align="right"
               style={{ color: "grey", textTransform: "uppercase" }}
             >
-              Warsaw University of technology
+              Warsaw University of technology (JAN-2020 - JULY 2020)
             </Typography>
             <Typography
               variant="subtitle1"
@@ -261,7 +285,7 @@ const Resume = () => {
               align="left"
               style={{ color: "grey", textTransform: "uppercase" }}
             >
-              Warsaw University of technology (Oct 2018 - Current)
+              Warsaw University of technology (Oct 2018 - September 2020)
             </Typography>
             <Typography
               variant="subtitle1"

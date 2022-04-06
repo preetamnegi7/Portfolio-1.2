@@ -63,7 +63,7 @@ class MyForm extends React.Component {
               textTransform: "uppercase",
             }}
           >
-            hire or contact me...
+            Contact me for collaboration or independent consulting
           </Typography>
           <InputField
             id="outlined-basic"

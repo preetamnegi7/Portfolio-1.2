@@ -116,7 +116,36 @@ const Resume = () => {
           working experience
         </Typography>
     <Box component="div" className={classes.timeline}>
-              <Typography
+       <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2022
+          </Typography>
+           <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h4"
+              align="right"
+              className={classes.subHeading}
+            >
+              PROGRAM MANAGER
+            </Typography>
+            <Typography
+              variant="body1"
+              align="right"
+              style={{ color: "grey", textTransform: "uppercase" }}
+            >
+              DONALDSON INDIA FILTER SYSTEMS PVT. LTD. (APRIL 2022 - CURRENT)
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="right"
+              style={{ color: "white" }}
+            >
+              <ul>Managing Global Program (Engine Air Filtration)</ul>
+              </Typography>
+              </Box>        
+      <Typography
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >

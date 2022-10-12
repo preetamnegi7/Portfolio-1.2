@@ -171,8 +171,7 @@ const Resume = () => {
               align="right"
               style={{ color: "white" }}
             >
-              <ul>Managing Project Engine Air Filtration</ul>
-              <ul>Team Player in Global Power Pleat</ul>
+              <ul>Managing Projects (Engine Air Filtration)</ul>
               </Typography>
             </Box>
           <Box component="div" className={classes.timeLineItem}>

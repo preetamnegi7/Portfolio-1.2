@@ -145,7 +145,7 @@ const Resume = () => {
               <ul>Managing Project Engine Air Filtration</ul>
               <ul>Team Player in Global Power Pleat</ul>
               </Typography>
-            
+            </Box>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
               variant="h4"

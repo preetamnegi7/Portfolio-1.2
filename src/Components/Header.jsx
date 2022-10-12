@@ -35,7 +35,7 @@ export const Header = () => {
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
         <Avatar
-          variant="rounded"
+          variant="circle"
           src={avatar}
           alt="Pritam"
           className={classes.negi}
